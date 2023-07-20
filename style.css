@@ -1,0 +1,163 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Sans Serif;
+}
+
+
+.container{
+
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(to left, #3C1053FF, #DF6589FF);
+
+}
+
+.box{
+
+	height: 90%;
+	width: calc(80% - 50%);
+	border: 1px solid #404752;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(64, 71, 82, 1.0);
+	border-radius: 30px;
+	box-shadow: 10px 10px 80px black;
+
+	
+}
+
+
+.box-img{
+	margin-top: 60px;
+	margin-left: 40px;
+	height: 120px;
+	width: 120px;
+/*	border: 5px solid #9e23a9;*/
+box-shadow: 10px 10px 50px 10px #005080;
+	border-radius: 60px;
+}
+
+.text
+{
+
+	border: 0px solid white;
+	height: 270px;
+	width: 80%;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.text h2{
+
+	font-size: 52px;
+	color: #f3e4df;
+	text-shadow: 10px 10px 20px black;
+
+}
+
+.text p{
+
+	margin-top: 20px;
+	font-size: 21px;
+	font-family: Calibri;
+	color: #bfaba8;
+	font-weight: 500;
+	word-spacing: 2px;
+	display: block;
+    position: relative;
+    text-shadow: 10px 10px 20px black;
+
+}
+
+.btn{
+
+	height: 60px;
+	width: 200px;
+	padding-right: 35px;
+	color: #ffccb9;
+	font-size: 20px;
+	border: 0px;
+	text-align: right;
+	margin-top: 30px;
+	background-color: #3e4752;
+	border-radius: 20px;
+	cursor: pointer;
+	padding-bottom: 12px;
+	
+	box-shadow: 5px 5px 5px black;
+}
+
+.btn:hover{
+
+	box-shadow: 10px 10px 10px black;
+}
+
+
+.btn-img{
+
+	height: 30px;
+	width: 30px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-20%, 25%);
+
+}
+
+.btn:hover{
+
+	transition: 800ms;
+	transform: translateY(-10px);
+}
+
+.footer{
+
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-45%, 250%);
+
+	height: 60px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 20px;
+}
+
+
+.footer ul{
+	list-style: none;
+
+}
+
+.footer ul li{
+	display: inline-flex;
+	padding: 0px 10px;
+}
+
+
+
+.footer ul li img{
+	height:60px;
+	width: 60px;
+	box-shadow: 1px 1px 10px black;
+	border-radius: 10px;
+
+	
+}
+
+.footer ul li img:hover{
+
+	transition: 500ms;
+	transform: translateY(-10px);
+	border-radius: 10px	;
+	box-shadow: 10px 10px 100px black;
+}
